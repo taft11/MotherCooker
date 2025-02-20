@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue1</item>
+        <item name="colorPrimaryDark">@color/blue1</item>
+        <item name="colorAccent">@color/blue1</item>
+    </style>
+
+    <style name="CustomToolbarTitle">
+        <item name="android:fontFamily">@font/montaga</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>

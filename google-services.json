@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "755411506572",
+    "project_id": "mother-cooker",
+    "storage_bucket": "mother-cooker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755411506572:android:f2ead3d3761602843032a9",
+        "android_client_info": {
+          "package_name": "com.example.recipe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_gJPV-TxqVSYlW8vKRq9KpErWeP1p278"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

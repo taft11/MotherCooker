@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MotherCooker</string>
+
+    <string-array name="recipe_categories">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Desserts</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="logo_desc" />
+    <string name="thumbs_up" />
+    <string-array name="filter_options">
+        <item>Highest Protein</item>
+        <item>Lowest Calories</item>
+        <item>Shortest Cooking Time</item>
+        <item>Shortest Preparation Time</item>
+    </string-array>
+</resources>

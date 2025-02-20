@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile"
+        android:title="Profile" />
+    <item
+        android:id="@+id/nav_submit_recipe"
+        android:icon="@drawable/ic_submit_recipe"
+        android:title="Submit a Recipe" />
+    <item
+        android:id="@+id/nav_shopping_list"
+        android:icon="@drawable/ic_shopping"
+        android:title="Shopping List"/>
+    <item
+        android:id="@+id/nav_edit_recipe"
+        android:icon="@drawable/ic_edit"
+        android:title="Edit Recipes" />
+</menu>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/detail_recipe_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="Recipe Image"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/detail_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp"
+                android:text="Recipe Title"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/like_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Like"
+                android:layout_marginStart="16dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/detail_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"
+            android:text="Description" />
+
+        <TextView
+            android:id="@+id/average_rating_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Average Rating: " />
+
+        <TextView
+            android:id="@+id/number_of_ratings_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of Ratings: " />
+
+        <TextView
+            android:id="@+id/preparation_time_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preparation Time: "
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/cooking_time_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cooking Time: "
+            android:textSize="16sp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/detail_ingredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:paddingBottom="8dp"
+            android:text="Ingredients"
+            android:layout_marginBottom="8dp"
+            android:lineSpacingExtra="4dp" />
+
+        <Button
+            android:id="@+id/add_to_shopping_list_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to Shopping List"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/detail_steps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Steps"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Nutritional Values Section -->
+        <TextView
+            android:id="@+id/serving_size_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Serving Size: 0" />
+
+        <TextView
+            android:id="@+id/calories_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calories: 0 kcal" />
+
+        <TextView
+            android:id="@+id/protein_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Protein: 0 g" />
+
+        <TextView
+            android:id="@+id/fat_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fat: 0 g" />
+
+        <TextView
+            android:id="@+id/carbohydrates_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carbohydrates: 0 g" />
+
+        <TextView
+            android:id="@+id/sodium_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sodium: 0 mg" />
+
+        <!-- Reviews Section -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/review_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1"
+            android:rating="0" />
+
+        <!-- Review Input Field -->
+        <EditText
+            android:id="@+id/review_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write your review here" />
+
+        <!-- Submit Review Button -->
+        <Button
+            android:id="@+id/submit_review_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Review" />
+
+    </LinearLayout>
+</ScrollView>
